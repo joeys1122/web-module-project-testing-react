@@ -27,5 +27,5 @@ test("renders default image when image is not defined", ()=>{
 
   const defaultImg = screen.getByRole('img');
 
-  expect(defaultImg.alt).toContain('/stranger-things.png');
+  expect(defaultImg.alt).toBe('https://i.ibb.co/2FsfXqM/stranger-things.png');
 });
